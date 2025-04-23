@@ -56,6 +56,9 @@ main .Activello-Theme-Demo-all {
   flex-direction: column;
   margin-top: 4rem;
 }
+main .Activello-Theme-Demo-all hr {
+  margin-top: 1rem;
+}
 main .Activello-Theme-Demo-all-header h1 {
   font-size: 45px;
   color: #a161bf;
@@ -65,6 +68,9 @@ main .Activello-Theme-Demo-all-header p {
   font-size: 20px;
   color: #696969;
   font-weight: 100;
+}
+main .Activello-Theme-Demo-all-body {
+  display: none;
 }
 main .Activello-Theme-Demo-all-body-image {
   position: relative;
@@ -101,6 +107,7 @@ main .Post-Format-all {
   gap: 30px;
 }
 main .Post-Format-all-Standard {
+  visibility: hidden;
   text-align: center;
 }
 main .Post-Format-all-Standard p {
@@ -216,6 +223,7 @@ main .Tamplate-sections-all-text p {
 main .Tamplate-sections-all-boxses {
   display: flex;
   flex-wrap: wrap;
+  display: none;
 }
 main .Tamplate-sections-all-boxses .box {
   width: 50%;
@@ -283,7 +291,7 @@ footer {
   .container {
     padding: 0px 0px 0px 0px;
   }
-  main .Activello-Theme-Demo-all-body-image-text {
+  main .Activello-Theme-Dem .Activello-Theme-Demo-all-body-image-text {
     display: none;
   }
   main .Tamplate-sections-all {
@@ -297,6 +305,9 @@ footer {
     display: flex;
     justify-content: center !important;
     flex-direction: column !important;
+  }
+  .Post-Format .Post-Format-all-Standard {
+    display: none;
   }
   .Post-Format .Post-Format-all {
     display: flex;
@@ -314,6 +325,9 @@ footer {
     justify-content: center;
     flex-direction: column;
     text-align: center;
+  }
+  .Post-Format .Post-Format-all-About h1 {
+    margin-top: 5rem !important;
   }
   .Post-Format .Post-Format-all-About .box {
     display: none;

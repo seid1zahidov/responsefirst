@@ -67,7 +67,9 @@ main{
             text-align: center;
             flex-direction: column;
             margin-top: 4rem;
-    
+            hr{
+                margin-top: 1rem;
+            }
             &-header {
                 h1 {
                     font-size: 45px;
@@ -83,6 +85,7 @@ main{
             }
     
             &-body {
+                display: none;
                 &-image {
                     position: relative;
                     text-align: center;
@@ -120,6 +123,7 @@ main{
             grid-template-columns: 60% 40%;
             gap: 30px;
             &-Standard{
+                visibility: hidden;
                 text-align: center;
                p{
                 font-size: 17px;
@@ -250,6 +254,7 @@ main{
             &-boxses{
                 display: flex;
                 flex-wrap: wrap;
+                display: none;
                 .box{
                     width: 50%;
                     text-align: start;
@@ -323,9 +328,16 @@ footer{
         padding: 0px 0px 0px 0px;
     }
     main{
-        .Activello-Theme-Demo-all-body-image-text{
+        .Activello-Theme-Dem{
+        
+            .Activello-Theme-Demo-all-body-image-text{
                 display: none;
            }
+           .Post-Format-all-About{
+           }
+
+        }
+      
            .Tamplate-sections-all{
             display: grid;
             grid-template-columns: 100%;
@@ -336,6 +348,9 @@ footer{
            
        }
        .Post-Format{
+        .Post-Format-all-Standard{
+            display: none;
+        }
         display: flex;
         justify-content: center !important;
         flex-direction: column !important;
@@ -349,6 +364,9 @@ footer{
             display: none;
         }
         .Post-Format-all-About{
+            h1{
+                margin-top: 5rem !important;
+            }
             .box{
                 display: none;
             }
