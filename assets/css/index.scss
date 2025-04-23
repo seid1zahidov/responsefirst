@@ -345,6 +345,9 @@ footer{
             display: none;
         }
         .Post-Format-all-About{
+            .box{
+                display: none;
+            }
             display: flex;
             justify-content: center;
             flex-direction: column;

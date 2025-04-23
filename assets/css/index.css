@@ -308,6 +308,9 @@ footer {
     flex-direction: column;
     text-align: center;
   }
+  .Post-Format .Post-Format-all-About .box {
+    display: none;
+  }
   .Post-Format .Post-Format-all-About img {
     width: 100%;
   }
